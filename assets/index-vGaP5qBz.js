@@ -147,6 +147,7 @@ Error generating stack: `+i.message+`
   min-width: ${e=>e.status===_t.TO_DO&&"50px"};
 `,VA=Be.button`
   color: black;
+  background-color: transparent;
   display: flex;
   align-items: center;
   font-size: large;
@@ -288,7 +289,6 @@ Error generating stack: `+i.message+`
   letter-spacing: 0.4rem;
   transition: color ease-in-out 0.25s;
 `;function $P(){const[e,t]=rh(ih),n=r=>{const{name:o}=r.currentTarget;if(o===""){t(null);return}t(o)};return se.jsxs(DP,{children:[se.jsx(bP,{onClick:n,activated:e===null,children:"Todos"}),se.jsxs(MP,{children:[se.jsx(mc,{onClick:n,name:_t.TO_DO,activated:e===_t.TO_DO,accentColor:"#C8D5FF",children:"Todo"}),se.jsx(mc,{onClick:n,name:_t.DOING,activated:e===_t.DOING,accentColor:"#FED5FF",children:"Doing"}),se.jsx(mc,{onClick:n,name:_t.DONE,activated:e===_t.DONE,accentColor:"#E9EC97",children:"Done"})]})]})}const OP=Be.div`
-  background-color: tomato;
   display: flex;
   flex-direction: column;
   width: 350px;
