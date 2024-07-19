@@ -88,8 +88,20 @@ export default function CustomTodos() {
           category: 'Box1',
         },
       ],
-      Box2: [],
-      Box3: [],
+      Box2: [
+        {
+          id: Date.now(),
+          text: 'Drop this to any boxs',
+          category: 'Box2',
+        },
+      ],
+      Box3: [
+        {
+          id: Date.now(),
+          text: 'Drop this to any boxs',
+          category: 'Box3',
+        },
+      ],
     });
     console.log(todos);
   }, []);
