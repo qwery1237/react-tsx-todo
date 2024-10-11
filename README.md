@@ -26,7 +26,7 @@ Through this project, I learned:
 - **To-Do Status Management**: Each list item can be set to "to-do," "doing," or "done."
 - **List Filtering**: Users can filter lists based on their status.
 - **Drag-and-Drop**: Reorder items across lists (to-do, doing, done) via drag-and-drop functionality.
-- **Sub To-Do Management**: Add sub-tasks under any to-do item and rename them.
+- **Sub To-Do Management**: Rename the sub-to-do box itself.
 - **Drag-and-Drop Between Sub To-Dos**: Move sub-tasks between different lists using drag-and-drop.
 - **Add/Delete To-Do and Sub To-Dos**: Add new tasks or sub-tasks, and remove them as needed.
 
